@@ -1,0 +1,11 @@
+  .button{
+    padding: 1rem;
+        @include buttonBackground;
+        @include first-shadows;
+      }
+
+       .button:hover {
+          @include first-shadows-2;
+          opacity: 0.7;  
+        }
+        

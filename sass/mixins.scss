@@ -1,0 +1,61 @@
+
+// nav + button
+@mixin buttonBackground {
+    background-image: linear-gradient($color-secondary,
+            $color-primary);
+    border: transparent;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+@mixin hover-btn{
+     opacity: 0.7;  
+    transform: scale(1);
+}
+
+//shadows
+
+@mixin first-shadows {
+    -webkit-box-shadow:  2px 1px 8px -3px #000;
+     box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.4);
+}
+
+@mixin first-shadows-2 {
+    -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.9);
+     box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.9);
+}
+
+
+//PARTIE FOOTER
+@mixin pagination-link-header {
+    background-color: #f6f6f6;
+    border-radius: 1.5rem;
+    padding: 1.3rem;
+    text-align: center;
+    height: 4.5rem;
+    width: 20.938rem;
+}
+
+@mixin pagination-link-footer {
+    height: 10rem;
+    background-color: #353535;
+    color: #fff;
+}
+
+@mixin pagination-link-footer-li {
+    width: 52%;
+    margin: 1rem 2rem;
+
+    .svg {
+        color: #fff;
+    }
+
+    .footer-icon {
+        margin-right: .5rem;
+    }
+}
