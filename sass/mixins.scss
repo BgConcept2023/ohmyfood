@@ -18,6 +18,12 @@
     transform: scale(1);
 }
 
+@mixin Art-function{
+     background-color: #F5EDFF;
+         border-color: #F5EDFF;
+         @include first-shadows-2;
+}
+
 //shadows
 
 @mixin first-shadows {

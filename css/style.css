@@ -97,6 +97,11 @@ header .localisation p {
   padding: 1rem;
 }
 
+#first__page {
+  background-color: #fff;
+  height: 100px;
+}
+
 .function__container {
   width: 100%;
   padding: 0.1rem;
@@ -110,23 +115,23 @@ header .localisation p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  gap: 2.25rem;
   margin-left: 0.02rem;
 }
 
 .article__function {
   display: flex;
   flex-direction: row;
-  text-align: center;
-  width: 17.5rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 18.75rem;
   height: 3rem;
-  margin: 0rem;
   padding: 0.9375rem 0.9375rem 0.9375rem 0rem;
   border: 1px solid #F7F7F7;
   border-radius: 20px;
   background-color: #f6f6f6;
-  -webkit-box-shadow: 2px 1px 14px -3px #000;
-  box-shadow: 1px 5px 15px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.9);
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.9);
 }
 
 /*# sourceMappingURL=style.css.map */

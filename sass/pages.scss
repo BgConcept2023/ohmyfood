@@ -1,4 +1,8 @@
 //Partie functioning
+#first__page{
+    background-color: #fff;
+    height: 100px;
+}
 .function__container{
     width: 100%;
     padding: .1rem;
@@ -13,20 +17,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.25rem;
+    gap: 2.25rem;
     margin-left: .02rem ;
 }
 
 .article__function{
     display: flex;
     flex-direction: row;
-    text-align: center;
-    width: 17.5rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 18.75rem;
     height: 3rem;
-    margin: 0rem;
     padding: 0.9375rem 0.9375rem 0.9375rem 0rem;
     border: 1px solid #F7F7F7;
     border-radius: 20px;
     background-color: $grey;
-    @include first-shadows-2;
+    @include first-shadows;
+
+    
 }
