@@ -1,0 +1,32 @@
+//Partie functioning
+.function__container{
+    width: 100%;
+    padding: .1rem;
+    margin-bottom: .2rem;
+    
+    & h1{
+        margin: left 0.05rem; ;
+    }
+}
+
+.function__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    margin-left: .02rem ;
+}
+
+.article__function{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 17.5rem;
+    height: 3rem;
+    margin: 0rem;
+    padding: 0.9375rem 0.9375rem 0.9375rem 0rem;
+    border: 1px solid #F7F7F7;
+    border-radius: 20px;
+    background-color: $grey;
+    @include first-shadows-2;
+}

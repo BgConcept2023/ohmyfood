@@ -1,11 +1,14 @@
 header{ 
-    .logo_pages{
+    margin-bottom: 2rem;
+    .logo__pages{
         width: 100%;
         display: flex;
         justify-content: center;
         #logo{
+            background: transparent;
             padding: 1rem;
-            height: 3.5rem;;
+            height: 5.125rem;
+            width: 10.375rem;
         }
     }
     .localisation{
@@ -17,6 +20,7 @@ header{
         padding: 1rem;
         @include first-shadows-2;   
     p{
+        line-height: .0625em;
         margin-left: 1rem;
     }
 }
