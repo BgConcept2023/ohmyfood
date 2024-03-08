@@ -97,29 +97,27 @@ header .localisation p {
   padding: 1rem;
 }
 
-#first__page {
+#function__contenaire {
   background-color: #fff;
-  height: 100px;
-}
-
-.function__container {
+  height: 20.625rem;
   width: 100%;
+}
+#function__contenaire h2 {
+  padding: 1.5rem;
+}
+#function__contenaire .function__content {
+  display: flex;
   padding: 0.1rem;
   margin-bottom: 0.2rem;
 }
-.function__container h1 {
-  margin: left 0.05rem;
-}
-
-.function__content {
+#function__contenaire .function__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.25rem;
   margin-left: 0.02rem;
 }
-
-.article__function {
+#function__contenaire .article__function {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
