@@ -13,6 +13,7 @@
         align-items: center;
         gap: 2.25rem;
         margin-left: .02rem ;
+        
     }
     
     .article__function{
@@ -54,3 +55,100 @@
 
  
 }
+
+ // restaurants
+
+.restaurants{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-color: #F7F7F7;    
+    
+}
+h2{
+   padding: 1.5rem;
+  } 
+
+.restaurants-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    height: 15.625rem;
+    margin: 2rem auto;
+    background-color: #fff;
+    border-radius: 1.25rem;
+    @include first-shadows;
+    
+    &:hover{
+        @include first-shadows-2;
+    }
+    
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 11.25rem;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+}
+
+.new{
+    position: absolute;
+    right: 15px;
+    top: 0rem;
+
+    padding: 4px 7px 4px 7px;
+    margin-top: 5%;
+    font-size: 0.8125rem;
+    background-color: #99E2D0;
+
+    border: 0.0625rem solid #99E2D0;
+
+    color: #008766;
+}
+
+.new p{
+    margin: unset;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-txt{
+    color: black;
+
+    padding: 0.9375rem 0rem 0rem 0.625rem;
+}
+
+.card-title{
+    margin: 0rem 0rem 0.3125rem 0rem;
+}
+
+.card-subtitle{
+    margin: unset;
+}
+
+.card-heart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 1.25rem;
+
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+// mediaqueries
+/* MOBILES */
+// @media screen and (max-width: 1441px)

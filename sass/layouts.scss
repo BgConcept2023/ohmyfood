@@ -44,3 +44,22 @@ header{
     }
     
 }
+
+
+//FOOTER
+#footer{
+    background-color: $dark;
+    height: 13.75rem;
+    
+    #logo-footer{
+        color: #fff;
+        font-family: $shrikhand;
+    }
+   ul, li{
+    color: #fff;
+    margin: 1rem;
+   }
+ & a{
+    margin-left: 0.5rem;
+ }
+}
