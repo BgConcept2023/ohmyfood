@@ -6,12 +6,6 @@
      & h2{
         padding:1.5rem; 
     }
-    .function__content{
-        display: flex;
-        padding: .1rem;
-        margin-bottom: .2rem;
-        
-    }
     
     .function__content{
         display: flex;
@@ -26,13 +20,37 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 18.75rem;
+        width: 15.75rem;
         height: 3rem;
         padding: 0.9375rem 0.9375rem 0.9375rem 0rem;
-        border: 1px solid #F7F7F7;
+        border: transparent;
         border-radius: 20px;
         background-color: $grey;
         @include first-shadows;
                 
+        &:hover{
+            @include art-function;
+        }
     }
+    
+        i {
+            color: $color-primary;
+        }
+    }
+.number{
+    display: grid;
+    align-items: center;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    position: relative;
+    margin: unset;
+    background-color: #9356DC;
+    border: 1px solid #9356DC;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    // padding: 0px 8px 0px 8px;
+    right: 8%;
+    text-align: center;
+
+ 
 }

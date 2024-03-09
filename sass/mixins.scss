@@ -18,17 +18,20 @@
     transform: scale(1);
 }
 
-@mixin Art-function{
-     background-color: #F5EDFF;
-         border-color: #F5EDFF;
-         @include first-shadows-2;
+@mixin art-function{
+            @include first-shadows-2;
+            background-color: $lightpurple;
+            box-shadow: 0 3px 5px $color-primary;
+            transition: 0.9s;
+            transform: scale(1.02);
+        
 }
 
 //shadows
 
 @mixin first-shadows {
-    -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.9);
-     box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
+     box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
 @mixin first-shadows-2 {
