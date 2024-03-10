@@ -4,19 +4,24 @@
 
 //Début de la feuille dans la version mobile
 
-header{
+#food__logo{
     display: flex;
     align-items: center;
-    width: 100%;
+    margin-top: 1rem;
+ 
     & .fa-arrow-left{
-        font-size: x-large;
-        font-weight: 800;
+        margin-left: 1rem;
+        font-size: xx-large;
+        font-weight: 900;
     }
   
-    #food__logo{
+    .img__logo{
           width: 100%;
-          display: flex;
-          justify-content: center;
+          text-align: center;
+          img{
+            width: 200px;
+          }
+          
       }
 }
 
