@@ -21,7 +21,6 @@
 @mixin art-function{
             @include first-shadows-2;
             background-color: $lightpurple;
-            box-shadow: 0 3px 5px $color-primary;
             transition: 0.9s;
             transform: scale(1.02);
         
