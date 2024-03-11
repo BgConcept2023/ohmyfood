@@ -181,8 +181,6 @@ header .localisation p {
 }
 
 .restaurants {
-  padding-top: 10%;
-  padding-bottom: 20%;
   background-color: #F7F7F7;
 }
 
@@ -191,13 +189,18 @@ h2 {
 }
 
 .restaurants-content {
-  background-color: #008766;
-  height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.25rem;
+}
+@media (min-width: 768px) {
+  .restaurants-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .card {
@@ -218,7 +221,7 @@ h2 {
 }
 @media (min-width: 768px) {
   .card {
-    width: 30%;
+    width: 40%;
   }
 }
 
