@@ -356,19 +356,19 @@ h2 {
   padding: 0;
 }
 
-#card-container {
+.card-container {
   height: 16.25rem;
 }
-#card-container .card-menu {
+.card-container .card-menu {
   margin: 0.5rem;
   background-color: #fff;
   border-radius: 0.9375rem;
 }
-#card-container .card-menu .card-content {
+.card-container .card-menu .card-content {
   display: flex;
   padding: 1rem;
 }
-#card-container .price {
+.card-container .price {
   display: grid;
   align-items: center;
 }
