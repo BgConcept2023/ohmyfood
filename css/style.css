@@ -62,6 +62,7 @@ a {
 
 header {
   background-color: #fff;
+  height: 3.625rem;
 }
 header .logo__pages {
   width: 100%;
@@ -93,6 +94,7 @@ header .localisation p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 4.0625rem;
 }
 .navigation h1 {
   display: block;
@@ -308,7 +310,7 @@ body {
 #food__logo {
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 #food__logo .fa-arrow-left {
   margin-left: 1rem;
