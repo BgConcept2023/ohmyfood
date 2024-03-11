@@ -1,7 +1,13 @@
 //RESET
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-
+body {
+     @media(min-width: 768px){
+                width: 65.25rem;
+                margin: 0 auto;
+        }
+    background: $grey;
+}
 //Début de la feuille dans la version mobile
 
 #food__logo{
@@ -88,9 +94,9 @@
             padding: 1rem;
         }
     }
-    .price{
-        display: grid;
-        align-items: center;
-    }
+}
+.price{
+    display: grid;
+    align-items: center;
 }
 
