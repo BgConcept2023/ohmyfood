@@ -3,17 +3,25 @@
     background-color: #fff;
     height: 20.625rem;
     width: 100%;
+      @media(min-width: 768px){
+                height: 11rem;
+            
+        }
      & h2{
         padding:1.5rem; 
     }
-    
+       
     .function__content{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2.25rem;
         margin-left: .02rem ;
-        
+         @media(min-width: 768px){
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 1rem;
+        }
     }
     
     .article__function{
@@ -38,6 +46,7 @@
             color: $color-primary;
         }
     }
+
 .number{
     display: grid;
     align-items: center;
@@ -61,7 +70,7 @@
 .restaurants{
     padding-top: 10%;
     padding-bottom: 20%;
-    background-color: #F7F7F7;    
+    background-color: #F7F7F7;   
     
 }
 h2{
@@ -69,10 +78,14 @@ h2{
   } 
 
 .restaurants-content{
+    background-color: #008766;
+    height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
+         
 }
 
 .card{
@@ -89,7 +102,9 @@ h2{
     &:hover{
         @include first-shadows-2;
     }
-    
+      @media(min-width: 768px){
+               width: 30%;
+        }
 }
 .card img {
     object-fit: cover;

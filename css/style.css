@@ -118,6 +118,11 @@ header .localisation p {
   height: 20.625rem;
   width: 100%;
 }
+@media (min-width: 768px) {
+  #function__contenaire {
+    height: 11rem;
+  }
+}
 #function__contenaire h2 {
   padding: 1.5rem;
 }
@@ -127,6 +132,13 @@ header .localisation p {
   align-items: center;
   gap: 2.25rem;
   margin-left: 0.02rem;
+}
+@media (min-width: 768px) {
+  #function__contenaire .function__content {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 }
 #function__contenaire .article__function {
   display: flex;
@@ -179,6 +191,9 @@ h2 {
 }
 
 .restaurants-content {
+  background-color: #008766;
+  height: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,6 +215,11 @@ h2 {
 .card:hover {
   -webkit-box-shadow: 2px 1px 14px -3px #000;
   box-shadow: 1px 5px 15px 1px rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 768px) {
+  .card {
+    width: 30%;
+  }
 }
 
 .card img {
