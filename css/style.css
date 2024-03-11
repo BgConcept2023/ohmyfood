@@ -17,10 +17,11 @@ html {
 }
 
 body {
-  background: #f6f6f6;
+  background-color: #f6f6f6;
 }
 @media (min-width: 768px) {
   body {
+    background-color: blue;
     width: 65.25rem;
     margin: 0 auto;
   }
@@ -61,8 +62,10 @@ a {
 }
 
 header {
-  background-color: #fff;
   height: 3.625rem;
+}
+header .header-content {
+  background-color: #fff;
 }
 header .logo__pages {
   width: 100%;
@@ -94,7 +97,7 @@ header .localisation p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 4.0625rem;
+  margin-top: 3.625rem;
 }
 .navigation h1 {
   display: block;
