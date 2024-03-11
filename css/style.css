@@ -112,6 +112,20 @@ header .localisation p {
 #footer a {
   margin-left: 0.5rem;
 }
+@media (min-width: 768px) {
+  #footer {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 8rem;
+  }
+  #footer #logo-footer {
+    margin-top: 3.125rem;
+  }
+  #footer ul {
+    display: flex;
+    margin-top: 4.125rem;
+  }
+}
 
 #function__contenaire {
   background-color: #fff;
@@ -276,7 +290,6 @@ h2 {
   color: black;
 }
 
-/* MOBILES */
 #food__logo {
   display: flex;
   align-items: center;

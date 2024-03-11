@@ -60,4 +60,16 @@ header{
  & a{
     margin-left: 0.5rem;
  }
+ @media(min-width: 768px){
+                display: flex;
+                flex-direction: row-reverse;
+                height: 8rem;
+              #logo-footer{
+                  margin-top: 3.125rem;
+              }
+                ul{
+                    display: flex;
+                    margin-top: 4.125rem;
+                }
+        }
 }
