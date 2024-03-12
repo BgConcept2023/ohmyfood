@@ -433,16 +433,29 @@ body {
   margin: 0.5rem;
   background-color: #fff;
   border-radius: 0.9375rem;
-  animation: animMenu 3s;
+  animation: animMenu 5s;
 }
 .card-container .card-menu .card-content {
   display: flex;
   padding: 1rem;
 }
-
-.price {
-  display: grid;
+.card-container .card-menu .tile__menu {
+  width: 19.75rem;
+}
+.card-container .price {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
+  background-color: burlywood;
+  width: 50%;
+  right: 0.125rem;
+}
+.card-container .check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2FAF94;
+  width: 3.125rem;
 }
 
 #btn-contenaire {
