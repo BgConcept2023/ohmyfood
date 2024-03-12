@@ -1,11 +1,16 @@
 //Partie functioning
+body{
+     @media(min-width: 768px){
+                width: 90rem;
+                background-color: $gray;
+        }
+}
 #function__contenaire{
     background-color: #fff;
     height: 20.625rem;
     width: 100%;
       @media(min-width: 768px){
-                height: 11rem;
-            
+                height: 11rem;   
         }
      & h2{
         padding:1.5rem; 
@@ -157,11 +162,19 @@ h2{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
     margin-right: 1.25rem;
-
     font-size: 1.5rem;
-    color: black;
+   
+     .fa-solid{
+        position: absolute;
+        //  color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    .fa-regular{
+            background-image: linear-gradient(red,blue);
+
+        }
 }
 
 

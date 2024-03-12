@@ -5,12 +5,14 @@ body {
      @media(min-width: 768px){
                 width: 65.25rem;
                 margin: 0 auto;
+            background-color: #fff;
         }
-    background: $grey;
+    background: #fff;
 }
 //Début de la feuille dans la version mobile
 
 #food__logo{
+    border: 1px solid gray;
     display: flex;
     align-items: center;
     padding-top:1rem;
@@ -42,11 +44,14 @@ body {
 }
 
 .main-resto{
+    @media(min-width) {
+        margin: -3.875rem auto;
+    }
     height: 70.25rem;
     position: relative;
     background-color: $grey;
     border-radius: 1.25rem 1.25rem 0 0;
-    margin-top: -1.875rem; 
+    margin-top: -3.875rem; 
     
     & h1{
         font-family: $shrikhand;
@@ -59,10 +64,10 @@ body {
         justify-content: center;
         gap: 3.125rem;
     }
-    .fa-heart{
-        margin-top: .1875rem;
+    // .fa-heart{
+    //     margin-top: .1875rem;
         
-    }
+    // }
 }
 
 //menu
