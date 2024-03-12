@@ -14,10 +14,22 @@
 }
 
 @mixin hover-btn{
-     opacity: 0.7;  
+    opacity: 0.7;  
     transform: scale(1);
 }
 
+@mixin buttonBackground_2{
+      background-image: linear-gradient($color-secondary,
+            $color-primary);
+    border: transparent;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0 0 3rem 0;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
 @mixin art-function{
             @include first-shadows-2;
             background-color: $lightpurple;

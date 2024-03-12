@@ -4,9 +4,14 @@
         @include first-shadows;
       }
 
-       .button:hover {
+       .button:hover, .button-2:hover {
           @include first-shadows-2;
           opacity: 0.7;  
+        }
+
+        .button-2{
+          @include buttonBackground-2;
+          @include first-shadows;
         }
         
      //heart animation
