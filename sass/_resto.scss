@@ -69,6 +69,10 @@ body {
 
 //menu
 .menu{
+    @media(min-width: 768px){   
+             margin: 0 9.375rem;
+            width: 70%;
+        }
     display: inline-flex;
     flex-direction: column;
     width: 100%;
