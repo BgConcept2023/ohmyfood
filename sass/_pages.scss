@@ -167,14 +167,12 @@ h2{
    
      .fa-solid{
         position: absolute;
-        //  color: transparent;
+        background-image: linear-gradient($color-secondary, $color-primary);
+        color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
     }
-    .fa-regular{
-            background-image: linear-gradient(red,blue);
-
-        }
+    
 }
 
 

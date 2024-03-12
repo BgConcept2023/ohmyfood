@@ -57,7 +57,7 @@ a {
   opacity: 0.7;
 }
 
-.fa-solid:hover {
+.fa-regular:hover {
   color: transparent;
   opacity: 0;
 }
@@ -310,11 +310,10 @@ h2 {
 }
 .card-heart .fa-solid {
   position: absolute;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-}
-.card-heart .fa-regular {
-  background-image: linear-gradient(red, blue);
 }
 
 body {
