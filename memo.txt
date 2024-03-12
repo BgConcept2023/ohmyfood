@@ -1,3 +1,5 @@
 
 animation text gradient pour les coeurs :
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
+
+https://developer.mozilla.org/fr/docs/Web/CSS/animation

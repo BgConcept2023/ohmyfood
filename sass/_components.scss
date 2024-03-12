@@ -14,10 +14,16 @@
           @include first-shadows;
         }
         
-     //heart animation
+     // animation
   
-          .fa-solid:hover{
-            transition: 0.3s;
-          opacity: 1;}
+        @keyframes animMenu{
+          0%{
+            transform: scale(0);
+          }
+          100%{
+            transform: scale(1);
+          }
+
+        }
         
     
