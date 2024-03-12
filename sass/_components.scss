@@ -10,9 +10,9 @@
         }
         
      //heart animation
-    //Heart hover
-        .fa-regular:hover{
-          color: transparent;
-       opacity: 0;
+  
+          .fa-solid:hover{
+            transition: 0.3s;
+          opacity: 1;}
         
-    }
+    

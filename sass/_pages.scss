@@ -168,9 +168,12 @@ h2{
      .fa-solid{
         position: absolute;
         background-image: linear-gradient($color-secondary, $color-primary);
+        opacity: 0;
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
+        &:hover{
+          opacity: 1;}
     }
     
 }
