@@ -109,12 +109,16 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color: burlywood;
+        background-color: #fff;
         border-radius: 0 0.5rem 0.5rem 0;
         position: absolute;
-        width: 20%;
+        width: 50%;
         height: 2.625rem;
         right: 1rem;
+        &:hover{
+            padding-right: 0.3rem;
+            right: 3rem;
+        }
     }
     .check{
         display: flex;
@@ -122,6 +126,8 @@ body {
         align-items: center;
         background-color: $green;
         border-radius: 0 0.5rem 0.5rem 0;
+        color: #fff;
+        padding-left: 1rem;
         width: 3.125rem;
     }
 }
