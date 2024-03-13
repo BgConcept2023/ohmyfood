@@ -10,3 +10,5 @@ https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/translateY
 
 Loader
 https://cssloaders.github.io/
+
+mettre 3 petits ... sur menu quand hover
