@@ -436,6 +436,7 @@ body {
   animation: animMenu 5s;
 }
 .card-container .card-menu .card-content {
+  position: relative;
   display: flex;
   padding: 1rem;
 }
@@ -447,8 +448,10 @@ body {
   justify-content: flex-end;
   align-items: center;
   background-color: burlywood;
-  width: 50%;
-  right: 0.125rem;
+  position: absolute;
+  width: 20%;
+  height: 2.625rem;
+  right: 1rem;
 }
 .card-container .check {
   display: flex;

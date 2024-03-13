@@ -97,6 +97,7 @@ body {
         border-radius:0.9375rem; 
         animation: animMenu 5s ;
         .card-content{
+            position: relative;
             display: flex;
             padding: 1rem;
         }
@@ -109,9 +110,10 @@ body {
         justify-content: flex-end;
         align-items: center;
         background-color: burlywood;
-        width: 50%;
-        
-        right: .125rem;
+        position: absolute;
+        width: 20%;
+        height: 2.625rem;
+        right: 1rem;
     }
     .check{
         display: flex;
