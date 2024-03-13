@@ -2,7 +2,11 @@
 animation text gradient pour les coeurs :
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
 
+animation et transform
 https://developer.mozilla.org/fr/docs/Web/CSS/animation
+
+https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/translateY
+
 
 Loader
 https://cssloaders.github.io/

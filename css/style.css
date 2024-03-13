@@ -457,7 +457,10 @@ body {
 }
 @media (max-width: 768px) {
   .card-container .price {
-    width: 20%;
+    width: 40%;
+  }
+  .card-container .price:hover {
+    width: 25%;
   }
 }
 .card-container .price:hover {
