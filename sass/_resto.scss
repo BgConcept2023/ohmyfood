@@ -110,6 +110,7 @@ body {
         justify-content: flex-end;
         align-items: center;
         background-color: burlywood;
+        border-radius: 0 0.5rem 0.5rem 0;
         position: absolute;
         width: 20%;
         height: 2.625rem;
@@ -120,6 +121,7 @@ body {
         justify-content: center;
         align-items: center;
         background-color: $green;
+        border-radius: 0 0.5rem 0.5rem 0;
         width: 3.125rem;
     }
 }
