@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch main.scss css/style.css"
-  },
-  "author": "",
+    "sass": "sass --watch main.scss css/style.css"},
+  "author": "Bruno",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.71.1"
