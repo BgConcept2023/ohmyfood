@@ -322,16 +322,16 @@ body {
   width: 100%;
 }
 .resto-img img {
-  height: 18.75rem;
+  height: 60vh;
   width: 100%;
   object-fit: cover;
-  object-position: 50% 70%;
+  object-position: 50% 55%;
 }
 
 .main-resto {
   height: 70.25rem;
   position: relative;
-  background-color: aqua;
+  background-color: #f6f6f6;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-top: -3.875rem;
 }
@@ -394,40 +394,22 @@ body {
 .card-container .card-menu .card-content {
   position: relative;
   display: flex;
-  padding: 1rem;
 }
 .card-container .card-menu .tile__menu {
   width: 19.75rem;
 }
 .card-container .price {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 0 0.7rem 0.7rem 0;
   position: absolute;
-  width: 60%;
-  height: 2.625rem;
+  bottom: 0.5rem;
   right: 1rem;
-  transition: margin-right 4s;
-}
-@media (max-width: 768px) {
-  .card-container .price {
-    width: 40%;
-  }
-  .card-container .price:hover {
-    width: 25%;
-  }
 }
 .card-container .price:hover {
-  transition: margin-right 4s;
   padding-right: 0.3rem;
   right: 3rem;
   width: 45%;
 }
 .card-container .check {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #2FAF94;
   border-radius: 0 0.7rem 0.7rem 0;

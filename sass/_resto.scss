@@ -34,18 +34,17 @@ body {
 .resto-img{
    width: 100%;
    & img{
-    height: 18.75rem;
+    height: 60vh;
     width: 100%;
     object-fit: cover;
-    object-position: 50% 70%;
+    object-position: 50% 55%;
    }
 }
 
 .main-resto{
     height: 70.25rem;
     position: relative;
-    // background-color: $grey;
-    background-color: aqua;
+    background-color: $grey;
     border-radius: 1.25rem 1.25rem 0 0;
     margin-top: -3.875rem; 
     @media(max-width: 768px) {
@@ -108,31 +107,23 @@ body {
         .card-content{
             position: relative;
             display: flex;
-            padding: 1rem;
         }
         .tile__menu{
             width: 19.75rem;
         }
     }
     .price{
-        @media(max-width:768px) {
-            width: 40%;
-            &:hover{
-                width: 25%;
-            }
-        }
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background-color: #fff;
-        border-radius: 0 0.7rem 0.7rem 0;
+
         position: absolute;
-        width: 60%;
-        height: 2.625rem;
+        // display: flex;
+        // background-color: #fff;
+        // border-radius: 0 0.7rem 0.7rem 0;
+        // width: 60%;
+        // height: 2.625rem;
+        bottom: 0.5rem;
         right: 1rem;
-        transition: margin-right 4s;
+        
         &:hover{
-            transition: margin-right 4s;
             padding-right: 0.3rem;
             right: 3rem;
             width: 45%;
@@ -140,7 +131,6 @@ body {
     }
     .check{
         display: flex;
-        justify-content: center;
         align-items: center;
         background-color: $green;
         border-radius: 0 0.7rem 0.7rem 0;
