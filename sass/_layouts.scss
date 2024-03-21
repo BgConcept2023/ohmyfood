@@ -56,10 +56,10 @@ header{
 #footer{
     background-color: $dark;
     height: 15rem;
+    display: flex;
+    flex-direction: row-reverse;
     
     #logo-footer{
-        display: flex;
-        flex-direction: row-reverse;
         color: #fff;
         font-family: $shrikhand;
         padding: 1rem;
