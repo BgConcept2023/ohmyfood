@@ -164,6 +164,14 @@ header .localisation p {
   flex-direction: row-reverse;
   align-items: flex-end;
 }
+@media (max-width: 768px) {
+  #footer {
+    flex-direction: row;
+  }
+  #footer ul {
+    flex-direction: column;
+  }
+}
 #footer #logo-footer {
   color: #fff;
   font-family: shrikhand;
@@ -471,7 +479,7 @@ body {
   transition: all 1.5s;
 }
 .menu .card-container :hover .check {
-  margin-right: -1;
+  margin-right: 0;
 }
 .menu .card-container :hover .check .fa-circle-check {
   transform: rotate(0deg);

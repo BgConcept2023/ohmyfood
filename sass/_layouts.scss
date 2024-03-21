@@ -54,6 +54,12 @@ header{
 
 //FOOTER
 #footer{
+    @media(max-width: 768px){
+        flex-direction: row;
+        ul{
+            flex-direction: column;
+        }
+    }
     background-color: $dark;
     height: 7.1875rem;
     display: flex;
