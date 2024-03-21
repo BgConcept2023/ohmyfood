@@ -63,16 +63,17 @@ body {
   
 }
 
-//menu
+//menu et animation
 
 .menu{
+    //animation in component
 
     #menu__container{
         display: flex;
         flex-direction: column;
         align-items: center;
+       
     }
-    
     
     .card-container{
         height: 16.25rem;
@@ -81,8 +82,7 @@ body {
             margin:  0.5rem;
             background-color: #fff;
             border-radius:0.9375rem; 
-            
-            //animation in component
+            animation: animMenu 5s;
             
             .card-content{
                  @include first-shadows;

@@ -70,20 +70,42 @@ a {
   box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
+#menu-1 {
+  transition: all 1s;
+}
 @keyframes animMenu {
   0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(0.5rem);
-  }
-  75% {
-    transform: translateY(-0.5rem);
+    transform: scale(0);
   }
   100% {
-    transform: translateY(0);
+    transform: scale(1);
   }
 }
+
+#menu-2 {
+  transition: all 3s;
+}
+@keyframes animMenu-2 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#menu-3 {
+  transition: all 5s;
+}
+@keyframes animMenu {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 header {
   height: 3.625rem;
   border: rgb(231, 229, 229) 2px solid;
@@ -399,6 +421,7 @@ body {
   margin: 0.5rem;
   background-color: #fff;
   border-radius: 0.9375rem;
+  animation: animMenu 5s;
 }
 .menu .card-container .card-menu .card-content {
   -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
