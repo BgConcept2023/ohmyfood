@@ -122,7 +122,7 @@ body {
             color: #fff;
             font-size: 1.25rem;
             padding-left: 1rem;
-            height: 3.5rem;
+            height: 3.5630rem;
             width: 3.120rem;
             transition: all 0.5s;
             margin-right: -3.625rem;
@@ -132,7 +132,7 @@ body {
             }
         }
         :hover .check{
-            margin-right: 0;
+            margin-right: -1;
             & .fa-circle-check{
                  transform: rotate(0deg);
             }
