@@ -92,8 +92,15 @@ body {
                 display: flex;
             }
             .tile__menu{
-                width: 19.75rem;
+                width: 20.75rem;
                 padding: 0.5125rem 0.625rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                p{
+                overflow: hidden;
+                text-overflow: ellipsis;
+               } 
             }
         }
         .price{
