@@ -62,11 +62,20 @@
  // restaurants
 
 .restaurants{
-    background-color: #F7F7F7;   
-    
+    background-color: #F7F7F7;  
+   & h2{
+    padding: 1.5rem;
+   }  
+    @media(max-width:768px) {
+        display: flex;
+        flex-direction: row;
+    }
 }
-h2{
-   padding: 1.5rem;
+#menu-1 h2, #menu-2 h2, #menu-3 h2{
+   padding: 1rem;
+   text-decoration-thickness: .25rem;
+   text-decoration-line: underline;
+   text-decoration-color: $color-tiertiary;
   } 
 
   .restaurants-content{  
