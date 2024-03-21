@@ -58,27 +58,32 @@ header{
     height: 15rem;
     
     #logo-footer{
+        display: flex;
+        flex-direction: row-reverse;
         color: #fff;
         font-family: $shrikhand;
         padding: 1rem;
     }
-   ul, li{
-    color: #fff;
-    margin: 1rem;
-   }
- & a{
+   ul{
+display: flex;
+       color: #fff;
+       margin: 1rem;
+    }
+    li{
+        & a{
     margin-left: 0.5rem;
- }
-//  @media(min-width: 768px){
-//                 display: flex;
-//                 flex-direction: row-reverse;
-//                 height: 8rem;
-//               #logo-footer{
-//                   margin-top: 3rem;
-//               }
-//                 ul{
-//                     display: flex;
-//                     margin-top: 4.125rem;
-//                 }
-//         }
-}
+    //  @media(min-width: 768px){
+        //                 display: flex;
+        //                 flex-direction: row-reverse;
+        //                 height: 8rem;
+        //               #logo-footer{
+            //                   margin-top: 3rem;
+            //               }
+            //                 ul{
+                //                     display: flex;
+                //                     margin-top: 4.125rem;
+                //                 }
+                //         }
+            }
+        }
+    }

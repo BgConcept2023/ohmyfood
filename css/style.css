@@ -140,15 +140,18 @@ header .localisation p {
   height: 15rem;
 }
 #footer #logo-footer {
+  display: flex;
+  flex-direction: row-reverse;
   color: #fff;
   font-family: shrikhand;
   padding: 1rem;
 }
-#footer ul, #footer li {
+#footer ul {
+  display: flex;
   color: #fff;
   margin: 1rem;
 }
-#footer a {
+#footer li a {
   margin-left: 0.5rem;
 }
 
@@ -213,12 +216,6 @@ header .localisation p {
 .restaurants h2 {
   padding: 1.5rem;
 }
-@media (max-width: 768px) {
-  .restaurants {
-    display: flex;
-    flex-direction: row;
-  }
-}
 
 #menu-1 h2, #menu-2 h2, #menu-3 h2 {
   padding: 1rem;
@@ -240,13 +237,18 @@ header .localisation p {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 90%;
+  width: 40%;
   height: 15.625rem;
   margin: 1rem;
   background-color: #fff;
   border-radius: 1.25rem;
   -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
   box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
 }
 .card:hover {
   -webkit-box-shadow: 2px 1px 14px -3px #000;
@@ -387,9 +389,15 @@ body {
   border-radius: 0.9375rem;
 }
 .menu .card-container .card-menu .card-content {
+  -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   position: relative;
   display: flex;
+}
+.menu .card-container .card-menu .card-content:hover {
+  -webkit-box-shadow: 2px 1px 14px -3px #000;
+  box-shadow: 1px 5px 15px 1px rgba(0, 0, 0, 0.6);
 }
 .menu .card-container .card-menu .tile__menu {
   width: 20.75rem;

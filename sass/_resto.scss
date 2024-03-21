@@ -85,10 +85,13 @@ body {
             //animation in component
             
             .card-content{
-
+                 @include first-shadows;
                 cursor: pointer;
                 position: relative;
                 display: flex;
+                &:hover{
+                     @include first-shadows-2;
+                }
             }
             .tile__menu{
                 width: 20.75rem;
