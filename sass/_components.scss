@@ -18,29 +18,39 @@
           @include first-shadows;
         }
         
-     // animations
-     .loader{
-      border-radius: 1.875rem;
-      animation: disparate 5s 3s forwards;
-    #plat{
-      position: absolute;
-      margin: auto;
-      inset: 0;
+        // animations
+        .loader{
+          border-radius: 10%;
+          animation: disparate 3s 2s forwards;
+      #plat{
+        position: absolute;
+        margin: auto;
+        inset: 0 0 20% 0;
+      animation: rotater 1 2s;
     }
     } 
     @keyframes disparate {
+      
       0%{
         transform: scale(1);
       }
       100%{
+        
         transform: scale(0);
         
       }
       
     }
-
-
-
+    @keyframes rotater{
+      0%{
+        transform: rotate(360deg);
+      }
+      100%{
+        transform: rotate(0deg);
+      }
+    }
+    
+    
      //animation menu
   #menu-1{
     animation: animMenu 1s;

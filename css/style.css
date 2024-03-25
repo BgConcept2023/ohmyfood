@@ -71,13 +71,14 @@ a {
 }
 
 .loader {
-  border-radius: 1.875rem;
-  animation: disparate 5s 3s forwards;
+  border-radius: 10%;
+  animation: disparate 3s 2s forwards;
 }
 .loader #plat {
   position: absolute;
   margin: auto;
-  inset: 0;
+  inset: 0 0 20% 0;
+  animation: rotater 1 2s;
 }
 
 @keyframes disparate {
@@ -86,6 +87,14 @@ a {
   }
   100% {
     transform: scale(0);
+  }
+}
+@keyframes rotater {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 #menu-1 {
