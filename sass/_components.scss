@@ -20,23 +20,21 @@
         
      // animations
      .loader{
-      animation: disparate 5s;
-      .oh{
-        position: relative;
-      }
-      h1{
-        margin: auto;
-        position: absolute;
-        font-size: 2rem;
-        color: blueviolet;
-      }
+      border-radius: 1.875rem;
+      animation: disparate 5s 3s forwards;
+    #plat{
+      position: absolute;
+      margin: auto;
+      inset: 0;
+    }
     } 
     @keyframes disparate {
       0%{
-        opacity: 1;
+        transform: scale(1);
       }
       100%{
-        opacity: 0;
+        transform: scale(0);
+        
       }
       
     }

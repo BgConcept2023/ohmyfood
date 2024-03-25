@@ -71,24 +71,21 @@ a {
 }
 
 .loader {
-  animation: disparate 5s;
+  border-radius: 1.875rem;
+  animation: disparate 5s 3s forwards;
 }
-.loader .oh {
-  position: relative;
-}
-.loader h1 {
-  margin: auto;
+.loader #plat {
   position: absolute;
-  font-size: 2rem;
-  color: blueviolet;
+  margin: auto;
+  inset: 0;
 }
 
 @keyframes disparate {
   0% {
-    opacity: 1;
+    transform: scale(1);
   }
   100% {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 #menu-1 {
