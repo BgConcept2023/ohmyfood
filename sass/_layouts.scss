@@ -53,34 +53,25 @@ header{
 
 //FOOTER
 #footer{
-    @media(max-width: 768px){
-        flex-direction: row;
+    @media(min-width: 768px){
+        display: flex};
+        height: 13rem;
+        background: #353535;
+        color:white;
+        #logo-footer{
+            margin: 1rem;
+            width: 30%;;
+        }
         ul{
-            flex-direction: column;
+            margin-left:1rem ;
         }
-    }
-    background-color: $dark;
-    height: 7.1875rem;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    
-    #logo-footer{
-        color: #fff;
-        font-family: $shrikhand;
-        padding: 1rem;
-    }
-   ul{
-       display: flex;
-       color: #fff;
-       margin: 1.5625rem;
-    }
-    li{
-        & a{
-    margin-left: 0.5rem;
-   
-            }
+        li{
+            margin: 0.5rem;
         }
+        i{
+            margin-right: .325rem;
+        }
+        
     }
     //loader
 .loader{

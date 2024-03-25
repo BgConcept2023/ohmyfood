@@ -72,7 +72,7 @@ a {
 
 .loader {
   border-radius: 10%;
-  animation: disparate 3s 2s forwards;
+  animation: disparate 3s 4s forwards;
 }
 .loader #plat {
   position: absolute;
@@ -168,32 +168,27 @@ header .localisation p {
 }
 
 #footer {
-  background-color: #353535;
-  height: 7.1875rem;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
+  height: 13rem;
+  background: #353535;
+  color: white;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #footer {
-    flex-direction: row;
-  }
-  #footer ul {
-    flex-direction: column;
+    display: flex;
   }
 }
 #footer #logo-footer {
-  color: #fff;
-  font-family: shrikhand;
-  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
 }
 #footer ul {
-  display: flex;
-  color: #fff;
-  margin: 1.5625rem;
+  margin-left: 1rem;
 }
-#footer li a {
-  margin-left: 0.5rem;
+#footer li {
+  margin: 0.5rem;
+}
+#footer i {
+  margin-right: 0.325rem;
 }
 
 .loader {
@@ -476,7 +471,7 @@ body {
   align-items: flex-end;
   height: 3.5625rem;
   width: 2.6rem;
-  padding: 0 0.25rem 0.625rem 0;
+  padding: 0 0.125rem 0.625rem 0;
   margin-left: auto;
 }
 .menu .card-container .check {
