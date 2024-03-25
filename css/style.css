@@ -72,7 +72,7 @@ a {
 
 .loader {
   border-radius: 10%;
-  animation: disparate 3s 2s forwards;
+  animation: disparate 3s 4s forwards;
 }
 .loader #plat {
   position: absolute;
