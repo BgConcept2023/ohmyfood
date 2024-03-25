@@ -70,40 +70,45 @@ a {
   box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
-#menu-1 {
-  transition: all 1s;
+.loader {
+  animation: disparate 5s;
 }
-@keyframes animMenu {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
+.loader .oh {
+  position: relative;
+}
+.loader h1 {
+  margin: auto;
+  position: absolute;
+  font-size: 2rem;
+  color: blueviolet;
 }
 
-#menu-2 {
-  transition: all 3s;
-}
-@keyframes animMenu-2 {
+@keyframes disparate {
   0% {
-    transform: scale(0);
+    opacity: 1;
   }
   100% {
-    transform: scale(1);
+    opacity: 0;
   }
+}
+#menu-1 {
+  animation: animMenu 1s;
+}
+
+@keyframes animMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#menu-2 {
+  animation: animMenu 10s;
 }
 
 #menu-3 {
-  transition: all 5s;
-}
-@keyframes animMenu {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
+  animation: animMenu 20s;
 }
 
 header {
@@ -125,7 +130,6 @@ header .logo__pages #logo {
 }
 header .localisation {
   position: relative;
-  z-index: 1;
   background-color: darkgrey;
   display: flex;
   align-items: center;
@@ -184,6 +188,15 @@ header .localisation p {
 }
 #footer li a {
   margin-left: 0.5rem;
+}
+
+.loader {
+  background: #fff;
+  position: absolute;
+  height: 160vh;
+  inset: 0 0 0 0;
+  z-index: 1;
+  opacity: 0.9;
 }
 
 #function__contenaire {
@@ -416,6 +429,10 @@ body {
   gap: 3.125rem;
 }
 
+.menu {
+  width: 70%;
+  margin: 0 auto;
+}
 .menu #menu__container {
   display: flex;
   flex-direction: column;
@@ -432,15 +449,10 @@ body {
   animation: animMenu 5s;
 }
 .menu .card-container .card-menu .card-content {
-  -webkit-box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
-  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
   cursor: pointer;
   position: relative;
   display: flex;
-}
-.menu .card-container .card-menu .card-content:hover {
-  -webkit-box-shadow: 2px 1px 14px -3px #000;
-  box-shadow: 1px 5px 15px 1px rgba(0, 0, 0, 0.6);
 }
 .menu .card-container .card-menu .tile__menu {
   width: 20.75rem;
@@ -469,7 +481,7 @@ body {
   color: #fff;
   font-size: 1.25rem;
   padding-left: 1rem;
-  height: 3.563rem;
+  height: 3.567rem;
   width: 3.12rem;
   transition: all 0.5s;
   margin-right: -3.625rem;

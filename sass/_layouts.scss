@@ -16,7 +16,6 @@ header{
     }
     .localisation{
         position: relative;
-        z-index: 1;
         background-color:$gray;
         display: flex;
         align-items: center;
@@ -79,18 +78,16 @@ header{
     li{
         & a{
     margin-left: 0.5rem;
-    //  @media(min-width: 768px){
-        //                 display: flex;
-        //                 flex-direction: row-reverse;
-        //                 height: 8rem;
-        //               #logo-footer{
-            //                   margin-top: 3rem;
-            //               }
-            //                 ul{
-                //                     display: flex;
-                //                     margin-top: 4.125rem;
-                //                 }
-                //         }
+   
             }
         }
     }
+    //loader
+.loader{
+    background: #fff;
+    position: absolute;
+    height: 160vh;
+    inset: 0 0 0 0 ;
+    z-index: 1;
+    opacity: 0.9;
+}
