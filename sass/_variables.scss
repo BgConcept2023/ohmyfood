@@ -4,8 +4,15 @@ $color-secondary: #ff79da;
 $color-tiertiary: #99e2d0;
 $grey: #f6f6f6;
 $dark: #353535;
-$gray: darkgrey;
+$gray: #ebebeb;
 
 $lightpurple: #F5EDFF;
 $green: #2FAF94;
-$grayblack: #353535;
+$gray-black: #363636;
+
+//shadow des btns
+$shad: #ccc;
+
+//gradient des btns
+$gradient:linear-gradient($color-secondary,
+    $color-primary);

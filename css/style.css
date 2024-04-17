@@ -6,16 +6,24 @@ body {
   padding: 0;
 }
 
-h2 {
+h1 {
   font-family: "shrikhand", cursive;
+}
+
+h2 {
+  font-family: "roboto";
+}
+
+a {
+  text-decoration: none;
 }
 
 /*       Variables Colors   */
 header {
   height: 110px;
-  background-color: #f6f6f6;
+  background-color: #ebebeb;
 }
-header h2 {
+header h1 {
   background-color: #fff;
   box-shadow: 0px 10px 13px -10px #b6b6b6;
   font-size: 30px;
@@ -33,6 +41,32 @@ header p {
 header p .fa-location-dot {
   margin-right: 5px;
   padding-right: 5px;
+}
+
+.btn__gradient {
+  background-image: linear-gradient(#ff79da, #9356dc);
+  box-shadow: 3px 3px 7px 2px #ccc;
+  margin: 5px 0 30px 0;
+  padding: 16px;
+  border: transparent;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.reservation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+.reservation h2, .reservation p {
+  text-align: center;
+}
+
+.functionning h2 {
+  padding: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,21 @@
 @import "./base";
 @import "./variables";
 @import "./layouts";
+@import "./components";
+
+// feuille de style générale
+.reservation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #f5f5f5;
+        h2, p{
+        text-align: center;
+    }
+  //btn__gradiant => components
+}
+.functionning{
+    h2{
+        padding: 16px;
+    }
+}
