@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+body {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "shrikhand", cursive;
+}
+
+/*       Variables Colors   */
 header {
   height: 110px;
   background-color: #f6f6f6;
@@ -22,16 +33,6 @@ header p {
 header p .fa-location-dot {
   margin-right: 5px;
   padding-right: 5px;
-}
-
-body {
-  font-family: "roboto";
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  font-family: "shrikhand", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
