@@ -19,3 +19,18 @@
         padding: 16px;
     }
 }
+
+//liste des choix
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    li{
+        border-radius: 25px;
+        padding: 10px 20px;
+        background-color: $grey;
+        box-shadow: 3px 3px 10px 2px $shad;
+    }
+
+}

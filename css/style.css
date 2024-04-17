@@ -69,4 +69,17 @@ header p .fa-location-dot {
   padding: 16px;
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  align-items: center;
+}
+.list li {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+  box-shadow: 3px 3px 10px 2px #ccc;
+}
+
 /*# sourceMappingURL=style.css.map */
