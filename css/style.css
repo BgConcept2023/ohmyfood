@@ -16,7 +16,7 @@ h2 {
 }
 
 .subtitle {
-  padding: 16px;
+  padding: 20px;
 }
 
 a {
@@ -50,7 +50,7 @@ header p .fa-location-dot {
 }
 
 /* Déclaration de mixins prennant en compte une variable de taille pour travailler en responsive. 
-Grâce à @content, transmission des blocs de code entiers.*/
+Grâce à <<-@content->>, transmission des blocs de code entiers.*/
 .btn__gradient {
   background-image: linear-gradient(#ff79da, #9356dc);
   box-shadow: 3px 3px 7px 2px #ccc;
@@ -83,7 +83,6 @@ Grâce à @content, transmission des blocs de code entiers.*/
   position: relative;
   display: flex;
   justify-content: center;
-  flex-direction: row;
   gap: 3em;
   align-items: center;
 }
