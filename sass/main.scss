@@ -1,6 +1,7 @@
 @import "./base";
 @import "./variables";
 @import "./layouts";
+@import "./mixins";
 @import "./components";
 
 // feuille de style générale
@@ -21,13 +22,17 @@
 .functionning{
   margin-bottom: 50px;  
   .list{
+    @include mediaminwidth(768px) {
+            flex-direction: column;
+        };
       position: relative;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
+      flex-direction: row;
       gap: 3em;
       align-items: center;
       li{
-          border-radius: 25px;
+        @include b-radius(25px);
           padding: 10px 20px;
           background-color: $grey;
           box-shadow: 3px 3px 10px 2px $shad;
