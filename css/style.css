@@ -14,7 +14,8 @@ h2 {
   font-family: "roboto";
 }
 
-a {
+a, ::marker {
+  list-style: none;
   text-decoration: none;
 }
 
@@ -70,6 +71,7 @@ header p .fa-location-dot {
 }
 
 .list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 3em;
@@ -80,6 +82,9 @@ header p .fa-location-dot {
   padding: 10px 20px;
   background-color: #f6f6f6;
   box-shadow: 3px 3px 10px 2px #ccc;
+}
+.list li .fa-solid {
+  padding: 0 7px 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
