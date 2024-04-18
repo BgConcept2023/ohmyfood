@@ -14,7 +14,11 @@ h2 {
   font-family: "roboto";
 }
 
-a, ::marker {
+.subtitle {
+  padding: 16px;
+}
+
+a {
   list-style: none;
   text-decoration: none;
 }
@@ -66,25 +70,32 @@ header p .fa-location-dot {
   text-align: center;
 }
 
-.functionning h2 {
-  padding: 16px;
+.functionning {
+  margin-bottom: 50px;
 }
-
-.list {
+.functionning .list {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 3em;
   align-items: center;
 }
-.list li {
+.functionning .list li {
   border-radius: 25px;
   padding: 10px 20px;
   background-color: #f6f6f6;
   box-shadow: 3px 3px 10px 2px #ccc;
 }
-.list li .fa-solid {
+.functionning .list li .fa-solid {
   padding: 0 7px 0 0;
+}
+
+.restaurants {
+  height: 100px;
+  background-color: #f6f6f6;
+}
+.restaurants .card {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

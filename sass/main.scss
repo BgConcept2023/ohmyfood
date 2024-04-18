@@ -14,27 +14,37 @@
     }
   //btn__gradiant => components
 }
-.functionning{
-    h2{
-        padding: 16px;
-    }
-}
+
+
 
 //liste des choix
-.list{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 3em;
-    align-items: center;
-    li{
-        border-radius: 25px;
-        padding: 10px 20px;
-        background-color: $grey;
-        box-shadow: 3px 3px 10px 2px $shad;
-        .fa-solid{
-            padding: 0 7px 0 0;
+.functionning{
+  margin-bottom: 50px;  
+  .list{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+      align-items: center;
+      li{
+          border-radius: 25px;
+          padding: 10px 20px;
+          background-color: $grey;
+          box-shadow: 3px 3px 10px 2px $shad;
+          .fa-solid{
+              padding: 0 7px 0 0;
+            }
         }
+        
     }
     
 }
+//cards restaurants
+.restaurants{
+    height: 100px;
+    background-color: $grey;
+    .card{
+        width: 100%;
+    }
+}
+    

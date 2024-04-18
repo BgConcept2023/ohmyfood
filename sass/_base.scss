@@ -13,7 +13,10 @@ h1{
 h2{
     font-family: "roboto";
 }
-a, ::marker{
+.subtitle {
+    padding: 16px;
+}
+a,{
     list-style: none;
     text-decoration: none;
 }
