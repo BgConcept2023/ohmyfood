@@ -1,46 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="des menus préparés par nos chefs étoilés, avec des aliments bio...">
+    <meta
+      name="description"
+      content="des menus préparés par nos chefs étoilés, avec des aliments bio..."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100&family=Shrikhand&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="https://kit.fontawesome.com/5123fbeb27.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5123fbeb27.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Oh my food</title>
-</head>
-<body>
-    <!-- header => layouts --> 
-    <header>
-       <h1>ohmyfood</h1> 
-       <p><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
+  </head>
+  <body>
+    <!-- header => layouts -->
+    <header id="header">
+      <h1>ohmyfood</h1>
+      <p><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
     </header>
     <main>
-    <section class="reservation">
+      <section class="reservation">
         <h2>Réservez le menu qui vous convient</h2>
-        <p>Découvrez des restaurants d’exception, sélectionnés par nos soins.</p>
-        <a href=""><button class="btn__gradient">Explorez nos restaurants</button></a>
-    </section>
-    <section class="functionning">
+        <p>
+          Découvrez des restaurants d’exception, sélectionnés par nos soins.
+        </p>
+        <a href="#"><button class="btn__gradient">Explorez nos restaurants</button></a
+        >
+      </section>
+      <section class="functionning">
         <!-- subtitle => _base.scss -->
         <h2 class="subtitle">Fonctionnement</h2>
         <ol class="list">
-            <li><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</li>
-            <li><i class="fa-solid fa-list"></i>Composez votre menu</li>
-            <li><i class="fa-solid fa-store"></i>Dégustez au restaurant</li>
+          <li>
+            <i class="fa-solid fa-mobile-screen-button"></i>Choisissez un
+            restaurant
+          </li>
+          <li><i class="fa-solid fa-list"></i>Composez votre menu</li>
+          <li><i class="fa-solid fa-store"></i>Dégustez au restaurant</li>
         </ol>
-    </section>
-     <!-- Restaurants -->
-        <section class="restaurants">
-            <h2 class="subtitle">Restaurants</h2>
-           
-        </section>
-
+      </section>
+      <!-- Restaurants -->
+      <section class="restaurants">
+        <h2 class="subtitle">Restaurants</h2>
+        <div class="card__content">
+          <article class="card">
+            <div class="new"><p>Nouveau</p></div>
+                 <a href="./asset/la_palette_du_gout.html">
+                        <img src="./asset/images/restaurants/palette-du-goût.jpg" alt="palette du goût">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">La palette du goût</h3>
+                                <p class="card-subtitle">Ménilmontant</p>
+                            </div>
+                            <div class="card-heart">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </a>
+          </article>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
