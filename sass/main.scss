@@ -27,26 +27,47 @@
     @media screen and (min-width: 800px) {
       flex-direction: row;
     }
+    // position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3em;
     & li {
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      list-style: none;
       background-color: $grey;
-      border-radius: 20px;
-      padding: 16px 32px;
+      border-radius: 1rem;
+      padding: 1.3rem 2rem;
       box-shadow: 3px 3px 10px 2px $shad;
-      .fa-solid {
+      .number__list{
+        position: absolute;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: $color-primary;
+        border: 2px solid $color-primary;
+        border-radius: 50%;
+        color: #fff;
+        left: -1rem;
+      }
+      i.fa-solid {
         color: blueviolet;
-        padding: 0 7px 0 0;
+        margin-right: 1rem;
+        padding: 0 0.5rem 0 0;
       }
     }
   }
 }
+//
 li::marker {
   position: absolute;
-  color: brown;
+  color: red;
 }
 //cards restaurants
 .restaurants {
