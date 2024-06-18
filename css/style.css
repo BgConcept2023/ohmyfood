@@ -114,5 +114,8 @@ li::marker {
 .restaurants .card {
   width: 100%;
 }
+.restaurants img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
