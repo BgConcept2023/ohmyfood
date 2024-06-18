@@ -1,11 +1,1 @@
 //déclaration du border-radius
-@mixin b-radius($radius) {
-    border-radius: $radius ;
-}
-/* Déclaration de mixins prennant en compte une variable de taille pour travailler en responsive. 
-Grâce à <<-@content->>, transmission des blocs de code entiers.*/
-@mixin mediaminwidth($min) {
-    @media screen and (max-width:$min) {
-        @content;
-    }
-}
